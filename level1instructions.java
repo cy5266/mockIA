@@ -13,10 +13,13 @@ public class level1instructions extends instructions
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public level1instructions(){
-    GreenfootImage img = new GreenfootImage(100,300);
-        img.drawString ("click on the blue button twice", 2 , 280);
-        setImage(img);
+    //GreenfootImage img = new GreenfootImage(100,500);
+    String text = "click " +  "on the blue button twice";
+    setImage(new GreenfootImage(text, 40, Color.BLACK, Color.WHITE));
+    Color bgColor = new Color(0, 0, 0, 0);
     }
+    
+
     
     public void act() 
     {

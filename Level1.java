@@ -13,23 +13,24 @@ public class Level1 extends World
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
+   
     public Level1()
     {
-        super(600,400,1);
+        super(600,400,1); //creates the size of the canvas
         act();
     }
     
     public void act() 
     {
         
-        Counter COUNTER = new Counter("Level ");
-        COUNTER.setValue(1);
-        addObject(COUNTER, 50, 19);
+        Counter COUNTER = new Counter("Level "); //creates the counter
+        COUNTER.setValue(1); //sets value of counter
+        addObject(COUNTER, 50, 19); //places the counter on the screen
        
-        addObject(new BlueButton(),150,325);
-        addObject(new RedButton(),300,325);
-        addObject(new GreenButton(),450,325);// Add your action code here.
+        addObject(new BlueButton(),150,325); //places the buttons
+        addObject(new RedButton(1),300,325);
+        addObject(new GreenButton(1),450,325);
         
-        addObject(new level1instructions(), 100, 200);
+        addObject(new level1instructions(), 300, 80); //places the size
     }    
 }
