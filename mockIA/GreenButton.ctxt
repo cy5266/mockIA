@@ -1,9 +1,8 @@
 #BlueJ class context
 comment0.target=GreenButton
 comment0.text=\n\ Write\ a\ description\ of\ class\ ButtonTwo\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=GreenButton()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ ButtonTwo\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=score
+comment1.target=GreenButton(int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=

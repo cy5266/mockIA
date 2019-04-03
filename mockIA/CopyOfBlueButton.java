@@ -26,7 +26,7 @@ public class CopyOfBlueButton extends Colors
     {
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new level3());
+            Greenfoot.setWorld(new level3(3));
 }
 } 
 

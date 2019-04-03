@@ -12,9 +12,12 @@ public class GreenButton extends Colors
      * Act - do whatever the ButtonTwo wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public GreenButton()
+    int score = 0;
+    
+    public GreenButton(int score)
     {
         super();
+        this.score = score;
     }
     public void act() 
     {
@@ -26,7 +29,7 @@ public class GreenButton extends Colors
     {
         if (Greenfoot.mouseClicked(this))
         {
-    Greenfoot.setWorld(new color());
+    Greenfoot.setWorld(new color(score)); //sends the current level to the color class
     }
 } 
 

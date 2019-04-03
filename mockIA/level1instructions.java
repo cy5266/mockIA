@@ -14,12 +14,9 @@ public class level1instructions extends instructions
      */
     public level1instructions(){
     //GreenfootImage img = new GreenfootImage(100,500);
-    Color fontColor = Color.BLACK;
     String text = "click " +  "on the blue button twice";
     setImage(new GreenfootImage(text, 40, Color.BLACK, Color.WHITE));
     Color bgColor = new Color(0, 0, 0, 0);
-    
- 
     }
     
 

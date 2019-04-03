@@ -24,9 +24,9 @@ public class BlueButton extends Colors
     
     private void click()
     {
-        if (Greenfoot.mouseClicked(this))
+        if (Greenfoot.mouseClicked(this)) //checks to see if the user has clicked the button
         {
-            Greenfoot.setWorld(new level2());
+            Greenfoot.setWorld(new level2(2)); 
 }
 } 
 

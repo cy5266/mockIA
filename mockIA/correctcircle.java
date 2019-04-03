@@ -30,7 +30,7 @@ public class correctcircle extends Shapes
     {
         if (Greenfoot.mouseClicked(this))
         {
-    Greenfoot.setWorld(new level4());
+    Greenfoot.setWorld(new endlevel(6));
 }
 }
 }
